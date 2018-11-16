@@ -1,6 +1,6 @@
 {
   "name": "@adopisowifi/ng-bandwidth-limiter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Angular.js 1.x module for changing bandwidth limiter settings",
   "main": "dist/ado-ng-bandwidth-limiter.js",
   "scripts": {

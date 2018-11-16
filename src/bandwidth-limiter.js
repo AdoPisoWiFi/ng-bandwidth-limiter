@@ -16,9 +16,12 @@ angular
 
       $ctrl = this;
 
+
       $ctrl.$onInit = function () {
 
-        adoConfigService.get()
+        $ctrl.device = $ctrl.device || {};
+
+        adoConfigService.get({id: $ctrl.device.id})
           .then(function (res) {
             $ctrl.settings = res.data;
           });
