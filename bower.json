@@ -1,0 +1,24 @@
+{
+  "name": "ado-ng-bandwidth-limiter",
+  "description": "Angular.js 1.x module for changing Bandwidth Settings",
+  "main": "./dist/ado-ng-bandwidth-limiter.js",
+  "authors": [
+    "AdoPisoWiFi"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "adopisowifi",
+    "timer-settings"
+  ],
+  "homepage": "https://github.com/AdoPisoWiFi/ado-ng-bandwidth-limiter",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ado-save-config-btn": "^1.0.3"
+  }
+}
